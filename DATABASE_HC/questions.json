@@ -1,0 +1,152 @@
+[
+    {
+        "content": "数据库的特点之一是数据的共享性，严格地讲，这里的数据共享是指（ ）。 A. 同一个应用中的多个程序共享一个数据集合 B. 多个用户、同一种语言共享数据 C. 多个用户共享一个数据文件 D. 多种应用、多种语言、多个用户相互覆盖地使用数据集合",
+        "knowledge_list": [
+            "1.1 数据库系统概念"
+        ],
+        "id": "2"
+    },
+    {
+        "content": "SQL Server 2008系统中的所有系统级信息存储于哪个数据库（ ） A. master B. model C. tempdb D. msdb",
+        "knowledge_list": [
+            "3.1 SQL基础"
+        ],
+        "id": "72"
+    },
+    {
+        "content": "四种专门的关系运算是（ ）。 A. ÷，∞，π和σ B. ∪，∞，π和σ C. ∪，∩，×，和σ D. ∩，∞，π和σ",
+        "knowledge_list": [
+            "2.4 关系代数"
+        ],
+        "id": "13"
+    },
+    {
+        "content": "修改学生表，对学号字段创建PRIMARY KEY约束，以下语句正确的是（ ） A. ALTER TABLE 学生 ADD CONSTRAINT 学号 PRIMARY KEY (学号) B. ALTER TABLE 学生 ADD CONSTRAINT pkst PRIMARY KEY (学号) C. ALTER TABLE 学生 ADD CONSTRAINT 学号PRIMARY KEY D. ALTER TABLE 学生 ADD CONSTRAINT pkst 学号PRIMARY KEY",
+        "knowledge_list": [
+            "3.2 数据定义"
+        ],
+        "id": "24"
+    },
+    {
+        "content": "\r\n如果视图中没有包含表中某个不允许取空值又没有默认值约束的列，则不能利用视图（ ）数据 A. 插入 B. 修改 C. 删除 D. 查询",
+        "knowledge_list": [
+            "3.5 视图",
+            "5.1 实体完整性"
+        ],
+        "id": "148"
+    },
+    {
+        "content": "创建用户自定义数据库角色时，创建者需要完成的一系列任务不包括（ ）。 A. 创建Windows用户账号 B. 创建新的数据库角色 C. 分配权限给创建的角色 D. 将这个角色授予某个用户",
+        "knowledge_list": [
+            "3.2 数据定义",
+            "4.2 数据库安全性控制"
+        ],
+        "id": "122"
+    },
+    {
+        "content": "有学生表S(S#，SN，SEX，AGE，DEPT)，学生选课表SC(S#，C#，GRADE)；其中：S#为学号，SN为姓名，SEX为性别，AGE为年龄，DEPT为系别，C#为课程号，GRADE为成绩。查询查询选了课的学生的学号，正确T-SQL语句为（ ）。 A. SELECT S# FROM S EXCEPT SELECT S# FROM SC B. SELECT S# FROM S INTERSECT SELECT S# FROM SC C. SELECT S# FROM S UNION SELECT S# FROM SC D. SELECT S.S# FROM S CROSS JOIN SC",
+        "knowledge_list": [
+            "3.3 数据查询",
+            "3.7 T-SQL编程"
+        ],
+        "id": "126"
+    },
+    {
+        "content": "以下（ ）不是SQL Server内置函数中的字符串函数。 A. POWER B. LOWER C. UPPER D. SPACE",
+        "knowledge_list": [
+            "3.7 T-SQL编程"
+        ],
+        "id": "149"
+    },
+    {
+        "content": "SQL语言具有两种使用方式，分别称为交互式SQL和（ ） 。 A. 提示式SQL B. 多用户SQL C. 嵌入式SQL D. 解释式SQL",
+        "knowledge_list": [
+            "3.1 SQL基础"
+        ],
+        "id": "71"
+    },
+    {
+        "content": "SQL Server 2008提供了（ ）语句修改视图。 A. ALTER DATABASE B. ALTER TABLE C. ALTER VIEW D. ALTER INDEX",
+        "knowledge_list": [
+            "3.1 SQL基础",
+            "3.5 视图"
+        ],
+        "id": "119"
+    },
+    {
+        "content": "T-SQL语言不要求用户指定对数据的存放方法，这是T-SQL语言的（ ）特点。 A. 综合统一 B. 两种使用方式，统一的语法结构 C. 高度非过程化 D. 容易理解和掌握",
+        "knowledge_list": [
+            "3.7 T-SQL编程"
+        ],
+        "id": "140"
+    },
+    {
+        "content": "假设标量函数average的功能为“求某门课的平均成绩”，如果需要求“C001”号课的平均成绩，则以下函数调用语句正确的是：（ ) A. SELECT average（‘C001’） B. SELECT dbo.average（‘C001’） C. SELECT * FROM average（‘C001’） D. SELECT * FROM dbo.average（‘C001’）",
+        "knowledge_list": [
+            "3.3 数据查询",
+            "3.7 T-SQL编程"
+        ],
+        "id": "104"
+    },
+    {
+        "content": "以下哪一个不是在视图上创建聚集索引之前视图必须满足的要求（） A. 视图不能引用任何其它视图，只能引用基本表 B. 视图引用的所有基本表的所有者都必须与视图相同 C. 创建视图时不能使用 SCHEMABINDING 选项 D. 创建视图时不能使用 SCHEMABINDING 选项",
+        "knowledge_list": [
+            "3.5 视图"
+        ],
+        "id": "96"
+    },
+    {
+        "content": "以下对视图的优点的叙述，错误的是（ ） A. 为用户重新存储数据，简化用户的数据查询和处理 B. 保证数据的逻辑独立性 C. 重新定制数据，使得数据便于共享 D. 简化了用户权限的管理，增加了安全性",
+        "knowledge_list": [
+            "3.5 视图"
+        ],
+        "id": "59"
+    },
+    {
+        "content": "\r\n下列哪种情况不适合创建索引（ ） A. 表中的主键列 B. 只有两个或若干个值的列 C. 需要强制实施唯一性的列 D. 连接中频繁使用的列",
+        "knowledge_list": [
+            "3.1 SQL基础",
+            "7.5 物理结构设计"
+        ],
+        "id": "61"
+    },
+    {
+        "content": "有关系R和S，关系代数运算R∩S等价于( )。 A. S-(R-S) B. R-(R-S) C. R-S D. S-R",
+        "knowledge_list": [
+            "2.4 关系代数"
+        ],
+        "id": "10"
+    },
+    {
+        "content": "若某表满足1NF，且其所有属性合起来组成主健，则一定还满足范式 ( )。 A. 只有2NF B. 只有3NF C. 2NF和3NF D. 没有",
+        "knowledge_list": [
+            "6.1 范式概念"
+        ],
+        "id": "16"
+    },
+    {
+        "content": "有T-SQL语句：ALTER TABLE 学生ADD birthday DATETIME DEFAULT ‘1996-01-01’，下面的描述正确的是（ ） A. 向表中增加一个名为“DATETIME”的属性 B. 该属性不允许取空值 C. 该属性可以为学生表的主码 D. 该属性的默认值为“1996-01-01”",
+        "knowledge_list": [
+            "3.2 数据定义",
+            "3.6 空值处理",
+            "2.3 关系的完整性",
+            "3.7 T-SQL编程"
+        ],
+        "id": "27"
+    },
+    {
+        "content": "关系运算中花费时间可能最长的运算是( )。 A. 投影 B. 选择 C. 迪卡儿积 D.  除",
+        "knowledge_list": [
+            "2.2 关系操作",
+            "2.4 关系代数"
+        ],
+        "id": "17"
+    },
+    {
+        "content": "关于视图的删除以下说法正确的是（ ） A. 视图的删除不会影响其所依附的基本表的数据 B. 删除某基本表后，依据其创建的视图会自动删除 C. 视图删除语句为DELETE VIEW D. 如果依据某基本表创建的视图未被删除，则不可以删除此表",
+        "knowledge_list": [
+            "3.5 视图"
+        ],
+        "id": "62"
+    }
+]

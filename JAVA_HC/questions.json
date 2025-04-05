@@ -1,0 +1,156 @@
+[
+    {
+        "content": "请判断：class是定义类的惟一关键字。",
+        "knowledge_list": [
+            "2.4 关键字"
+        ],
+        "id": "88"
+    },
+    {
+        "content": "下列哪个是JDK提供的编译器? A. java.exe B. javac.exe C. javap.exe D. javaw.exe",
+        "knowledge_list": [
+            "1.2 JDK的使用"
+        ],
+        "id": "293"
+    },
+    {
+        "content": "在java 的异常处理模型中，无论是否发生异常，（    ）块中的代码都会被执行。 A. try B. catch C. finally D. throw",
+        "knowledge_list": [
+            "9.1 异常的概念",
+            "9.2 异常捕获"
+        ],
+        "id": "132"
+    },
+    {
+        "content": "请判断：FileWriter输出流按字符(char)写出数据。",
+        "knowledge_list": [
+            "13.2 字节流、字符流"
+        ],
+        "id": "430"
+    },
+    {
+        "content": "下列哪个代码替换程序标注的【代码】会使得程序输出hello。\n\npublic class Test {  \n    public static void main (String args[ ]) { \n         int m = 0;\n         if(【代码】){\n           System.out.println(\"您好\");\n         }\n         else {\n           System.out.println(\"hello\");\n         }    \n}\n} A. m-- <= 0 B. ++m > 0 C. m++ > 0 D. --m < 0",
+        "knowledge_list": [
+            "2.2 基本格式",
+            "4.3 关系运算符"
+        ],
+        "id": "287"
+    },
+    {
+        "content": "下列哪个是错误的？ A. 程序如果需要读取程序\"外部\"的数据，可以创建指向外部的输入流。 B. 程序如果需要将程序中数据，写入到程序\"外部\"，可以创建指向外部的输出流。 C. 如果程序要读取一个文件，可以创建指向文件的FileInputStream输入流。 D. 如果程序要读取一个文件，可以创建指向文件的FileOutputStream输出流。",
+        "knowledge_list": [
+            "13.1 流概述",
+            "13.2 字节流、字符流"
+        ],
+        "id": "426"
+    },
+    {
+        "content": "进行Java基本GUI设计需要用到的包是（    ）。 A. java.io B. java.sql C. java.awt  D. java.rmi",
+        "knowledge_list": [
+            "14.1 AWT概述"
+        ],
+        "id": "170"
+    },
+    {
+        "content": "（    ）布局管理器使用的是组件的最佳尺寸。 A. FlowLayout B. CardLayout C. BorderLayout D. GridLayout",
+        "knowledge_list": [
+            "14.4 布局管理器"
+        ],
+        "id": "178"
+    },
+    {
+        "content": "下列哪些叙述是正确的？（多选） A. 表达式5.0/2+10的结果是double型数据：12.5。 B. 表达式5/2的结果是2。 C. 表达式10>20-17的结果是1 D. 表达式5>1的结果是true。",
+        "knowledge_list": [
+            "4.1 算术运算符",
+            "4.3 关系运算符"
+        ],
+        "id": "255"
+    },
+    {
+        "content": "请判断：如果前台线程全部死亡，后台线程也会自动死亡。",
+        "knowledge_list": [
+            "10.1 线程概述",
+            "10.4 线程的调度",
+            "10.3 线程的生命周期和状态转换"
+        ],
+        "id": "206"
+    },
+    {
+        "content": "Java源程序的扩展名为（    ）。 A. .java B. .class C. .javac D. .Java",
+        "knowledge_list": [
+            "1.1 Java概述"
+        ],
+        "id": "21"
+    },
+    {
+        "content": "下列哪项是Java语言规定的关键字？ A. run B. import C. Int D. implement",
+        "knowledge_list": [
+            "2.4 关键字"
+        ],
+        "id": "308"
+    },
+    {
+        "content": "下列说法中错误的一项是（    ）。 A. 在实际编程中，一般使用的是Component类的子类 B. 在实际编程中，一般使用的是Container类的子类 C. Container类是Component类的子类 D. 容器中可以放置构件，但是不能够放置容器",
+        "knowledge_list": [
+            "14.1 AWT概述",
+            "14.3 常用事件分类",
+            "14.4 布局管理器"
+        ],
+        "id": "181"
+    },
+    {
+        "content": "下列接口中标注的（1、2、3、4）中，哪两个是错误的？\ninterface Takecare {\n    protected void speakHello();       //1\n    public abstract static void cry();  //2\n    int f();                            //3\n    abstract float g();                //4\n} A. 1和2 B. 1和3 C. 1和4 D. 2和3",
+        "knowledge_list": [
+            "8.3 抽象类和接口"
+        ],
+        "id": "123"
+    },
+    {
+        "content": "下列哪个是错误的？ A. 程序使用PreparedStatement对象会加重数据库的负担。 B. 连接对象调用prepareStatement(String sql)方法对参数sql指定的SQL语句进行预编译处理，\n并返回一个PreparedStatement对象。 C. 结果集rs执行rs.getString(1)按字符串返回结果集当前行第1列的值。 D. \"jdbc:mysql://localhost:3306/students?useSSL=true\"中的\"students\"是用户数据库的名字。",
+        "knowledge_list": [
+            "11.2 JDK的新特性",
+            "11.3 常用类：Scanner、String、System、Runtime、Math、Random、日期操作类等",
+            "15.3 TCP通信"
+        ],
+        "id": "480"
+    },
+    {
+        "content": "下列哪些叙述是错误的？（多选） A. 类和它所实现的接口不一定在同一个包里。 B. abstract类不能实现任何接口。 C. 一个类至多可实现一个接口。 D. 一个类不能重复实现同一个接口，例如class A implements Com,Com",
+        "knowledge_list": [
+            "8.3 抽象类和接口",
+            "8.5 包",
+            "8.4 多态"
+        ],
+        "id": "362"
+    },
+    {
+        "content": "以下哪个方法用于定义线程的执行体？ （    ） A. start() B. init() C. run() D. synchronized()",
+        "knowledge_list": [
+            "10.2 线程的创建"
+        ],
+        "id": "188"
+    },
+    {
+        "content": "下列哪个叙述是错误的？ A. 内部类的外嵌类的成员变量在内部类中仍然有效。 B. 内部类中的方法也可以调用外嵌类中的方法。 C. 内部类的类体中可以声明类变量(static)变量。 D. 外嵌类的类体中可以用内部类声明对象，作为外嵌类的成员。",
+        "knowledge_list": [
+            "7.7 内部类"
+        ],
+        "id": "386"
+    },
+    {
+        "content": "Java程序中，main方法的格式正确的是（    ）。 A. static void main (string[] args) B. public void main (string[] s) C. public static main (string[] args) D. public static void main (string[] args)",
+        "knowledge_list": [
+            "2.2 基本格式",
+            "2.4 关键字"
+        ],
+        "id": "13"
+    },
+    {
+        "content": "下列哪个叙述是正确的？ A. 在子类的构造方法中显示地写出super时,super关键字形成的语句必须是子类构造方法的第1条语句。 B. 子类和父类必须在一个包中。 C. 可以同时用final和abstract修饰同一个方法。 D. abstract类中，必须要有abstract方法。",
+        "knowledge_list": [
+            "8.1 类的继承",
+            "8.4 多态"
+        ],
+        "id": "346"
+    }
+]
